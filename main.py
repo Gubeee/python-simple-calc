@@ -22,3 +22,19 @@ elif option == 2:
 	print("\nWynik: ")
 	print (a - b)
 	exit()
+elif option == 3:
+	a = int(input("Podaj pierwsza liczbe: "))
+	b = int(input("Podaj druga liczbe: "))
+	print("\nWynik: ")
+	print (a * b)
+	exit()
+elif option == 4:
+	a = int(input("Podaj pierwsza liczbe: "))
+	b = int(input("Podaj druga liczbe: "))
+	print("\nWynik: ")
+	print (a / b)
+	exit()
+else:
+	print("Nie ma takiej opcji w menu!")
+	exit()
+
